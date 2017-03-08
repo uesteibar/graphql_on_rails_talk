@@ -1,0 +1,16 @@
+{
+  "allHashtags": [
+    {
+      "id": 1,
+      "tag": "hola"
+    },
+    {
+      "id": 2,
+      "tag": "othertag"
+    }
+  ]
+
+  "hashtag" {
+    "tag": "hola"
+  }
+}

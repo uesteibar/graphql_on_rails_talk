@@ -50,11 +50,12 @@ import CodePrevious from './slides/codePrevious'
 import TypeExample from './slides/typeExample'
 import QueryExample from './slides/queryExample'
 import JsonQueryExample from './slides/jsonQueryExample'
+import JsonResponseExample from './slides/jsonResponseExample'
 
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
+      <Deck transition={["zoom", "slide"]} transitionDuration={300} theme={theme}>
         <Slide transition={["fade"]}>
           <Title />
         </Slide>
@@ -75,6 +76,9 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]}>
           <JsonQueryExample />
+        </Slide>
+        <Slide transition={["fade"]}>
+          <JsonResponseExample />
         </Slide>
       </Deck>
     );

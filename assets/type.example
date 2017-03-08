@@ -1,0 +1,7 @@
+HashtagType = GraphQL::ObjectType.define do
+  name 'Hashtag'
+  description 'A Hashtag'
+
+  field :id, types.ID
+  field :tag, types.String
+end

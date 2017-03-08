@@ -1,0 +1,15 @@
+QueryType = GraphQL::ObjectType.define do
+  name 'Query'
+  description 'The query root for this schema'
+
+  field :allHashtag do
+    type types[HashtagType]
+    resolve -> (_obj, _args, _ctx) { Hashtag.all }
+  end
+
+  field :hashtag do
+    type HashtagType
+    argument :id, !types.ID
+    resolve -> (_obj, args, _ctx) { Hashtag.find(args[:id]) }
+  end
+end

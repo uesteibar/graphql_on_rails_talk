@@ -1,0 +1,10 @@
+{
+  allHashtags {
+    id
+    tag
+  }
+
+  hashtag(id: 1) {
+    tag
+  }
+}

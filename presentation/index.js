@@ -51,6 +51,8 @@ import TypeExample from './slides/typeExample'
 import QueryExample from './slides/queryExample'
 import JsonQueryExample from './slides/jsonQueryExample'
 import JsonResponseExample from './slides/jsonResponseExample'
+import Why from './slides/why'
+import Closing from './slides/closing'
 
 export default class Presentation extends React.Component {
   render() {
@@ -79,6 +81,12 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]}>
           <JsonResponseExample />
+        </Slide>
+        <Slide transition={["fade"]}>
+          <Why />
+        </Slide>
+        <Slide transition={["fade"]}>
+          <Closing />
         </Slide>
       </Deck>
     );

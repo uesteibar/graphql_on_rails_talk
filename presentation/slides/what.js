@@ -9,8 +9,8 @@ export default class What extends React.Component {
           WTF is GraphQL?
         </Heading>
         {this.appearingText("It's a query language for your API")}
-        {this.appearingText("A runtime for fulfilling those queries with your existing data")}
-        {this.appearingText("Awesomeness")}
+        {this.appearingText("It's a runtime for fulfilling those queries with your existing data")}
+        {this.appearingText("It's awesomeness")}
       </div>
     )
   }

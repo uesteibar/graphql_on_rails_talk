@@ -4,12 +4,16 @@ QueryType = GraphQL::ObjectType.define do
 
   field :allHashtag do
     type types[HashtagType]
-    resolve -> (_obj, _args, _ctx) { Hashtag.all }
+    resolve -> (_obj, _args, _ctx) {
+      Hashtag.all
+    }
   end
 
   field :hashtag do
     type HashtagType
     argument :id, !types.ID
-    resolve -> (_obj, args, _ctx) { Hashtag.find(args[:id]) }
+    resolve -> (_obj, args, _ctx) {
+      Hashtag.find(args[:id])
+    }
   end
 end

@@ -9,7 +9,6 @@
     "lint": "eslint --ext .js,.jsx .",
     "deploy": "npm run clean & npm run build && surge . graphql_on_rails.uesteibar.com",
     "start": "cross-env NODE_ENV=development node server.js"
-
   },
   "author": "",
   "license": "MIT",
@@ -17,7 +16,8 @@
     "normalize.css": "3.0.3",
     "react": "15.4.2",
     "react-dom": "15.4.2",
-    "spectacle": "^2.0.0"
+    "spectacle": "^2.0.0",
+    "spectacle-code-slide": "github:uesteibar/spectacle-code-slide"
   },
   "devDependencies": {
     "babel-cli": "^6.16.0",

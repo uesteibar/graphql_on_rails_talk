@@ -11,8 +11,8 @@ export default class Credits extends React.Component {
         <Text margin="20px 0 0" textColor="tertiary" size={6} fit bold>
           You can find the code for the slides here:
         </Text>
-        <Link href="https://github.com/uesteibar/spectacle-code-slide" margin="20px 0 0" textColor="tertiary" size={6} fit bold>
-          https://github.com/uesteibar/spectacle-code-slide
+        <Link href="https://github.com/uesteibar/graphql_on_rails_talk" target="_blank" margin="20px 0 0" textColor="tertiary" size={6} fit bold>
+          https://github.com/uesteibar/graphql_on_rails_talk
         </Link>
       </div>
     )

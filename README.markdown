@@ -4,11 +4,11 @@ Some silly slides about getting started with GraphQL on Ruby on Rails.
 
 ## Reference
 
-Created using Spectacle. The core API is available at [HERE](https://github.com/FormidableLabs/spectacle/blob/master/README.markdown).
+Created using Spectacle. The core API is available [HERE](https://github.com/FormidableLabs/spectacle/blob/master/README.markdown).
 
 ## Running
 
-Clone the repo and run `yarn`. (or `npm install` if you're about that life)
+Clone the repo and run `yarn` or `npm install`
 
 Then, to start up the local server, run `npm start`
 

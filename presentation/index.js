@@ -50,6 +50,7 @@ import How from './slides/how'
 import CodePrevious from './slides/codePrevious'
 import Why from './slides/why'
 import Closing from './slides/closing'
+import Credits from './slides/credits'
 
 export default class Presentation extends React.Component {
   render() {
@@ -118,6 +119,9 @@ export default class Presentation extends React.Component {
         </Slide>
         <Slide transition={["fade"]}>
           <Closing />
+        </Slide>
+        <Slide transition={["fade"]}>
+          <Credits />
         </Slide>
       </Deck>
     );
